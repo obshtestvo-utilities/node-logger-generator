@@ -1,0 +1,19 @@
+{
+	"name": "logger-wrapper",
+	"description": "Wrapper of the package `winston` Loggly or Papertrail as transports",
+	"version": "0.0.1",
+	"author": {
+		"name": "Общество",
+		"email": "info@obshtestvo.bg"
+	},
+	"main": "./index.js",
+	"dependencies": {
+		"winston": "*",
+		"winston-loggly": "*"
+		"winston-loggly": "*"
+	},
+	"keywords": [
+		"wrapper",
+		"logger"
+	]
+}
