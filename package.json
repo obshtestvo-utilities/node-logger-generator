@@ -1,5 +1,5 @@
 {
-	"name": "logger-wrapper",
+	"name": "logger-generator",
 	"description": "Wrapper of the package `winston` Loggly or Papertrail as transports",
 	"version": "0.0.1",
 	"author": {
@@ -9,8 +9,8 @@
 	"main": "./index.js",
 	"dependencies": {
 		"winston": "*",
-		"winston-loggly": "*"
-		"winston-loggly": "*"
+		"winston-loggly": "*",
+		"winston-papertrail": "*"
 	},
 	"keywords": [
 		"wrapper",
